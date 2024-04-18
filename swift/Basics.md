@@ -11,4 +11,23 @@ var isTrue: Bool = false
 
 // String interpolation
 var s1 = "value of PI is: \(pi)"
+
+
+// Collection types
+// Arrays
+let langs = ["swift", "python", "js"]
+print(langs[langs.count - 1])
+
+// Sets
+let langSet = Set(langs)
+print(langSet)
+
+let colors2 = Set(["red", "green", "blue", "red", "blue"]) //-> {"red", "green", "blue"}
+
+// Tuples
+let user = (email: "user@app.com", name: "username1")
+print(user.0, user.email)
+print(user.1, user.name)
+
+
 ```
