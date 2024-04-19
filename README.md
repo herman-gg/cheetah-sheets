@@ -4,7 +4,7 @@
 
 ## Log
 * Swift
-  * ✅ ✅ 
+  * ✅ ✅ ✅
   * [Basics](/swift/Basics.md)
 * k8s
 * Go
