@@ -294,3 +294,25 @@ do {
 }
 ```
 
+## Operators
+```swift
+// Nil-coalescing Operators
+let a: Int? = Int("123")
+let b = 100
+print("[A] is now equals :" + String(a != nil ? a! : b))
+// Same as ...
+print ("[A] is now equals :" + String(a ?? b))
+
+
+// Range Operators
+
+// Closed range operator (includes last index)
+for index in 1...5 {}
+// Half-Open range operator
+for index in 1..<5 {}
+
+// One sided ranges
+for name in names[2...] {}
+for name in names[...2] {}
+for name in names[..<2] {}
+```
