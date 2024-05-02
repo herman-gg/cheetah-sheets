@@ -6,6 +6,9 @@
 * Swift
   * ✅ ✅ ✅
   * [Basics](/swift/Basics.md)
-* k8s
-* Go
-* TS
+
+## Resources
+* Linux & Co
+  * [Awesome Bash](https://github.com/awesome-lists/awesome-bash)
+  * [Crontab CheatSheet](https://crontab.guru/)
+  * [VIM Interactive Tutorial](https://vim-adventures.com/)
